@@ -17,10 +17,10 @@ export default function Testimonios() {
             </div>
           </div>
           <div className="col-span-3 lg:col-span-1  h-[300px] md:h-[560px] bg-green-100 relative ">
-            <Image src={ph1} objectFit="cover" layout="fill" />
+            <Image src={ph1} objectFit="cover" layout="fill" alt="none" />
           </div>
           <div className="col-span-3 lg:col-span-1  h-[300px] md:h-[560px] bg-green-100 relative ">
-            <Image src={ph1} objectFit="cover" layout="fill" />
+            <Image src={ph1} objectFit="cover" layout="fill" alt="none" />
           </div>
         </div>
       </div>

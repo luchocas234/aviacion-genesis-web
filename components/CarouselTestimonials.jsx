@@ -44,6 +44,7 @@ export default function CarouselTestimonials({ img1, img2, img3, clase1 }) {
                   layout="fill"
                   objectFit="cover"
                   className="rounded-full"
+                  alt="none"
                 />
               </div>
               <p className="text-sm font-bold">Franco, Entre Rios - Arg</p>
@@ -64,6 +65,7 @@ export default function CarouselTestimonials({ img1, img2, img3, clase1 }) {
                   layout="fill"
                   objectFit="cover"
                   className="rounded-full"
+                  alt="none"
                 />
               </div>
               <p className="text-sm font-bold">Lucho, Entre Rios - Arg</p>
@@ -84,6 +86,7 @@ export default function CarouselTestimonials({ img1, img2, img3, clase1 }) {
                   layout="fill"
                   objectFit="cover"
                   className="rounded-full"
+                  alt="none"
                 />
               </div>
               <p className="text-sm font-bold">Pedro, Entre Rios - Arg</p>

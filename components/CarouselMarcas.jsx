@@ -39,6 +39,7 @@ export default function CarouselMarcas({}) {
               layout="fill"
               objectFit="contain"
               className="rounded-lg"
+              alt="none"
             />
           </div>
         </SwiperSlide>
@@ -49,6 +50,7 @@ export default function CarouselMarcas({}) {
               layout="fill"
               objectFit="contain"
               className="rounded-lg"
+              alt="none"
             />
           </div>
         </SwiperSlide>
@@ -60,6 +62,7 @@ export default function CarouselMarcas({}) {
               layout="fill"
               objectFit="contain"
               className="rounded-lg"
+              alt="none"
             />
           </div>
         </SwiperSlide>
@@ -71,6 +74,7 @@ export default function CarouselMarcas({}) {
               layout="fill"
               objectFit="contain"
               className="rounded-lg"
+              alt="none"
             />
           </div>
         </SwiperSlide>
@@ -81,6 +85,7 @@ export default function CarouselMarcas({}) {
               layout="fill"
               objectFit="contain"
               className="rounded-lg"
+              alt="none"
             />
           </div>
         </SwiperSlide>
