@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { ImQuotesLeft } from "react-icons/Im";
+import { ImQuotesLeft } from "react-icons/im";
 import Image from "next/image";
 import ph1 from "./../imgs/genesis.aviacion.jpg";
 
