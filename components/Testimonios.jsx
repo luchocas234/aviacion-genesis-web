@@ -5,7 +5,7 @@ import CarouselTestimonials from "./CarouselTestimonials";
 
 export default function Testimonios() {
   return (
-    <div className="bg-whhite w-full lg:h-screen">
+    <div id="alumnos" className="bg-whhite w-full lg:h-screen">
       <div className="max-w-[1400px] w-[90%] h-full mx-auto flex justify-center items-center">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 py-10">
           <div className="col-span-3 md:col-span-1    flex justify-between flex-col px-4">

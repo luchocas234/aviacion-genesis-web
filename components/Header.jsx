@@ -26,18 +26,28 @@ export default function Header() {
               </Link>
             </li>
             <li className="cursor-pointer hover:text-sky-500 select-none">
-              <Link href="/#about" smooth={true} offset={-200} duration={500}>
+              <Link
+                href="/#nosotros"
+                smooth={true}
+                offset={-200}
+                duration={500}
+              >
                 Nosotros
               </Link>
             </li>
             <li className="cursor-pointer hover:text-sky-500 select-none">
+              <Link href={"/#cursos"} smooth={true} offset={-50} duration={500}>
+                Cursos
+              </Link>
+            </li>
+            <li className="cursor-pointer hover:text-sky-500 select-none">
               <Link
-                href={"/#precios"}
+                href={"/#alumnos"}
                 smooth={true}
-                offset={-50}
+                offset={-100}
                 duration={500}
               >
-                Precios
+                Alumnos
               </Link>
             </li>
             <li className="cursor-pointer hover:text-sky-500 select-none">

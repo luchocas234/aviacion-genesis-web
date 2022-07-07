@@ -43,7 +43,10 @@ export default function Hero() {
           </form>
         </div>
 
-        <div className="max-w-[1400px] mx-auto w-[90%] h-full py-10 lg:py-0   items-center justify-center grid grid-cols-1 lg:grid-cols-2 gap-4    ">
+        <div
+          id="nosotros"
+          className="max-w-[1400px] mx-auto w-[90%] h-full py-10 lg:py-0   items-center justify-center grid grid-cols-1 lg:grid-cols-2 gap-4    "
+        >
           <div className="w-full  col-span-1 flex justify-center ">
             <ReactPlayer url="https://youtu.be/dOON00AZ0xk" />
           </div>

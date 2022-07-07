@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Cursos() {
   return (
-    <div className="bg-slate-900 w-full md:h-screen  ">
+    <div id="cursos" className="bg-slate-900 w-full md:h-screen  ">
       <div className="max-w-[1400px] w-[90%] mx-auto flex justify-center items-center py-10 lg:p-10  flex-col h-full">
         <h2 className="text-white text-center text-6xl font-semibold mb-10  ">
           <span className="text-orange-400">Nuestros cursos</span> y programas
