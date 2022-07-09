@@ -10,14 +10,14 @@ export default function Footer() {
             © 2022{" "}
             <a
               href="https://flowbite.com/"
-              clasName="hover:underline hover:text-orange-400"
+              className="hover:underline hover:text-orange-400"
             >
               Design by: Luciano Castro
             </a>
             . All Rights Reserved.
           </span>
-          <div clasNameName="flex mt-4 space-x-6  sm:justify-center sm:mt-0  sm:mb-0">
-            <a href="#" clasName="text-gray-500 hover:text-orange-400 ">
+          <div className="flex mt-4 space-x-6  sm:justify-center sm:mt-0  sm:mb-0">
+            <a href="#" className="text-gray-500 hover:text-orange-400 ">
               <svg
                 className="w-5 h-5"
                 fill="currentColor"

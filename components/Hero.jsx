@@ -3,10 +3,6 @@ import { useState } from "react";
 import ReactPlayer from "react-player";
 
 export default function Hero() {
-  const [play, setPlay] = useState(false);
-  const handleClick = () => {
-    setPlay(!play);
-  };
   return (
     <div className="w-full h-full relative ">
       <div className="h-full w-full relative justify-center items-center flex">
@@ -48,7 +44,7 @@ export default function Hero() {
           className="max-w-[1400px] mx-auto w-[90%] h-full py-10 lg:py-0   items-center justify-center grid grid-cols-1 lg:grid-cols-2 gap-4    "
         >
           <div className="w-full  col-span-1 flex justify-center ">
-            <ReactPlayer url="https://youtu.be/dOON00AZ0xk" />
+            <ReactPlayer url="https://youtu.be/dOON00AZ0xk" controls={true} />
           </div>
           <div className="col-span-1 text-center    flex flex-col justify-between items-center">
             <h3 className="text-3xl md:text-5xl font-semibold text-center  px-8   ">

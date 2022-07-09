@@ -1,26 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html {
   scroll-behavior: smooth;
   font-family: "Raleway", sans-serif;
 }
-body {
-  padding: 0;
-  margin: 0;
-  /* font-family: Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-    sans-serif; */
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 .custom-img {
   background-image: url("https://images.pexels.com/photos/1897669/pexels-photo-1897669.jpeg?cs=srgb&dl=pexels-bruno-castelli-1897669.jpg&fm=jpg");

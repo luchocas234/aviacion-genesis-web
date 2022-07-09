@@ -18,7 +18,7 @@ export default function Flota() {
           {/* Plane1 */}
           <div className="max-w-md col-span-3 lg:col-span-1 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <div classNameName="  h-[200px] md:h-[250px]  relative ">
+              <div className="  h-[200px] md:h-[250px]  relative ">
                 <Image
                   src={plane1}
                   objectFit="cover"
@@ -102,7 +102,7 @@ export default function Flota() {
           {/* Plane 3 */}
           <div className="max-w-md col-span-3 lg:col-span-1 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <div classNameName="  h-[200px] md:h-[250px]  relative ">
+              <div className="  h-[200px] md:h-[250px]  relative ">
                 <Image
                   src={plane3}
                   objectFit="cover"
