@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import ph1 from "./../imgs/genesis.aviacion.jpg";
+import foto1 from "./../imgs/foto1.jpg";
+import foto2 from "./../imgs/foto2.jpg";
 import CarouselTestimonials from "./CarouselTestimonials";
 
 export default function Testimonios() {
@@ -17,10 +18,10 @@ export default function Testimonios() {
             </div>
           </div>
           <div className="col-span-3 lg:col-span-1  h-[300px] md:h-[560px] bg-green-100 relative ">
-            <Image src={ph1} objectFit="cover" layout="fill" alt="none" />
+            <Image src={foto1} objectFit="cover" layout="fill" alt="none" />
           </div>
           <div className="col-span-3 lg:col-span-1  h-[300px] md:h-[560px] bg-green-100 relative ">
-            <Image src={ph1} objectFit="cover" layout="fill" alt="none" />
+            <Image src={foto2} objectFit="cover" layout="fill" alt="none" />
           </div>
         </div>
       </div>
