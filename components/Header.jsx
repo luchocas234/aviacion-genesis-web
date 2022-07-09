@@ -107,7 +107,7 @@ export default function Header() {
         >
           <p className="mb-14 text-4xl uppercase font-semibold ">
             {" "}
-            Aviacion Genesis
+            Genesis Aviación
           </p>
           <ul className="uppercase">
             <li
