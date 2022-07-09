@@ -97,6 +97,7 @@ export default function Header() {
             <AiFillCloseCircle className="text-3xl fill-white z-50" />
           )}
         </div>
+        {/* --- Mobile Menu--- */}
         <div
           className={
             nav
@@ -119,19 +120,31 @@ export default function Header() {
               onClick={handleNav}
               className="p-4 text-3xl hover:text-gray-500"
             >
-              <Link href="/#gallery">Nosotros</Link>
+              <Link href="/#nosotros">Nosotros</Link>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-3xl hover:text-gray-500"
             >
-              <Link href="/work">Precios</Link>
+              <Link href="/#cursos">Cursos</Link>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-3xl hover:text-gray-500"
             >
-              <Link href="/contact">Contacto</Link>
+              <Link href="/#alumtnos">Alumnos</Link>
+            </li>
+            <li
+              onClick={handleNav}
+              className="p-4 text-3xl hover:text-gray-500"
+            >
+              <Link href="/#flota">Flota</Link>
+            </li>
+            <li
+              onClick={handleNav}
+              className="p-4 text-3xl hover:text-gray-500"
+            >
+              <Link href="/#contacto">Contacto</Link>
             </li>
           </ul>
           <div className="w-80 mt-14 flex justify-center items-center space-x-4 ">
