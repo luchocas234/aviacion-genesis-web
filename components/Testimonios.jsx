@@ -11,7 +11,7 @@ export default function Testimonios() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 py-10">
           <div className="col-span-3 md:col-span-1    flex justify-between flex-col px-4">
             <h3 className="text-5xl font-semibold h-[20%] mb-10 ">
-              Estudiantes acerca nuestros entrenamientos
+              Estudiantes acerca de nuestros entrenamientos
             </h3>
             <div className="w-full h-[60%]">
               <CarouselTestimonials />
