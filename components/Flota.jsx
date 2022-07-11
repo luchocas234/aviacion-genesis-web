@@ -8,7 +8,7 @@ export default function Flota() {
   return (
     <div
       id="flota"
-      className="w-full h-full lg:h-[90vh] bg-gray-100 flex flex-col items-center p-10"
+      className="w-full h-full  bg-gray-100 flex flex-col items-center p-10 "
     >
       <div className="max-w-[1400px]  w-[90%] mx-auto h-full flex flex-col justify-around my-20 ">
         <h3 className="text-6xl font-semibold text-slate-800 text-center mb-10">

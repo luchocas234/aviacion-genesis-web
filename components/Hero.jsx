@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import ReactPlayer from "react-player";
+import { AiOutlineCheck } from "react-icons/ai";
 
 export default function Hero() {
   return (
@@ -56,11 +57,19 @@ export default function Hero() {
               garantizamos un ambiente profesional y amigable con un equipo de
               profesionales motivados.
             </p>
-            <div className="grid grid-cols-2 text-xl font-semibold text-orange-400">
-              <p>-Begginers</p>
-              <p>-Degree</p>
-              <p>-Overseas</p>
-              <p>-Hobby</p>
+            <div className="grid grid-cols-2 text-xl gap-6 font-semibold text-orange-400">
+              <p className="flex gap-4">
+                <AiOutlineCheck /> Principiantes
+              </p>
+              <p className="flex gap-4">
+                <AiOutlineCheck /> Avanzados
+              </p>
+              <p className="flex gap-4">
+                <AiOutlineCheck /> Extranjeros
+              </p>
+              <p className="flex gap-4">
+                <AiOutlineCheck /> Hobby
+              </p>
             </div>
           </div>
         </div>
