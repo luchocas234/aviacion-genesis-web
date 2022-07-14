@@ -16,7 +16,10 @@ export default function Flota() {
         </h3>
         <div className="w-full  grid justify-center items-center lg:grid-cols-3 gap-6 ">
           {/* Plane1 */}
-          <div className="max-w-md col-span-3 lg:col-span-1 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <div
+            data-aos="zoom-out-right"
+            className="max-w-md col-span-3 lg:col-span-1 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
+          >
             <a href="#">
               <div className="  h-[200px] md:h-[250px]  relative ">
                 <Image
@@ -58,7 +61,10 @@ export default function Flota() {
             </div>
           </div>
           {/* Plane2 */}
-          <div className="max-w-md col-span-3 lg:col-span-1 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <div
+            data-aos="zoom-out-right"
+            className="max-w-md col-span-3 lg:col-span-1 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
+          >
             <a href="#">
               <div className="  h-[200px] md:h-[250px]  relative ">
                 <Image
@@ -100,7 +106,10 @@ export default function Flota() {
             </div>
           </div>
           {/* Plane 3 */}
-          <div className="max-w-md col-span-3 lg:col-span-1 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <div
+            data-aos="zoom-out-right"
+            className="max-w-md col-span-3 lg:col-span-1 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
+          >
             <a href="#">
               <div className="  h-[200px] md:h-[250px]  relative ">
                 <Image

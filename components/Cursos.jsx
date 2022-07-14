@@ -7,7 +7,10 @@ export default function Cursos() {
         <h2 className="text-white text-center text-6xl font-semibold mb-10  ">
           <span className="text-orange-400">Nuestros cursos</span> y programas
         </h2>
-        <div className="w-full grid md:grid-cols-3 gap-12  py-10 px-4">
+        <div
+          data-aos="zoom-in"
+          className="w-full grid md:grid-cols-3 gap-12  py-10 px-4"
+        >
           {/* tarjeta */}
           <div className="bg-white shadow-xl  h-full p-4 md:py-14 px-8 flex flex-col justify-between">
             <div className="flex justify-between flex-col">
